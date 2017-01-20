@@ -1,2 +1,3 @@
 # ValidationKit
-A small validation library for validating user input in text fields
+
+A small iOS validation library for validating user input in text fields.
