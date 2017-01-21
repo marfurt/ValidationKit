@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DF80A8F1E31E3070043B5B9 /* ValidationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF80A851E31E3070043B5B9 /* ValidationKit.framework */; };
 		6DF80AC71E31E3660043B5B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DF80AA01E31E3660043B5B9 /* Info.plist */; };
-		6DF80AC81E31E3660043B5B9 /* ValidationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AA21E31E3660043B5B9 /* ValidationKit.h */; };
+		6DF80AC81E31E3660043B5B9 /* ValidationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AA21E31E3660043B5B9 /* ValidationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF80AC91E31E3660043B5B9 /* MVNBlockValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AA41E31E3660043B5B9 /* MVNBlockValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF80ACA1E31E3660043B5B9 /* MVNBlockValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF80AA51E31E3660043B5B9 /* MVNBlockValidator.m */; };
 		6DF80ACB1E31E3660043B5B9 /* MVNValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AA61E31E3660043B5B9 /* MVNValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +45,7 @@
 		6DF80AE91E31E3660043B5B9 /* UIView+MVNValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AC51E31E3660043B5B9 /* UIView+MVNValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF80AEA1E31E3660043B5B9 /* UIView+MVNValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF80AC61E31E3660043B5B9 /* UIView+MVNValidation.m */; };
 		6DF80AF11E31E4B80043B5B9 /* ValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF80AF01E31E4B80043B5B9 /* ValidatorTests.m */; };
-		6DF80AF51E31E5610043B5B9 /* NSString+MVNAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AF31E31E5610043B5B9 /* NSString+MVNAdditions.h */; };
+		6DF80AF51E31E5610043B5B9 /* NSString+MVNAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF80AF31E31E5610043B5B9 /* NSString+MVNAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF80AF61E31E5610043B5B9 /* NSString+MVNAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF80AF41E31E5610043B5B9 /* NSString+MVNAdditions.m */; };
 /* End PBXBuildFile section */
 
@@ -250,6 +250,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF80AC81E31E3660043B5B9 /* ValidationKit.h in Headers */,
+				6DF80AF51E31E5610043B5B9 /* NSString+MVNAdditions.h in Headers */,
 				6DF80AD31E31E3660043B5B9 /* MVNValidatorEmail.h in Headers */,
 				6DF80ACF1E31E3660043B5B9 /* MVNValidatorAlphanumeric.h in Headers */,
 				6DF80ADD1E31E3660043B5B9 /* MVNValidatorNumber.h in Headers */,
@@ -259,10 +261,8 @@
 				6DF80AE31E31E3660043B5B9 /* MVNValidatorURL.h in Headers */,
 				6DF80AD91E31E3660043B5B9 /* MVNValidatorLength.h in Headers */,
 				6DF80ADF1E31E3660043B5B9 /* MVNValidatorNumeric.h in Headers */,
-				6DF80AC81E31E3660043B5B9 /* ValidationKit.h in Headers */,
 				6DF80AE71E31E3660043B5B9 /* MVNTextFieldPrivateDelegate.h in Headers */,
 				6DF80ACD1E31E3660043B5B9 /* MVNValidatorAlphabetic.h in Headers */,
-				6DF80AF51E31E5610043B5B9 /* NSString+MVNAdditions.h in Headers */,
 				6DF80AD11E31E3660043B5B9 /* MVNValidatorCharacterSet.h in Headers */,
 				6DF80AC91E31E3660043B5B9 /* MVNBlockValidator.h in Headers */,
 				6DF80AD71E31E3660043B5B9 /* MVNValidatorEquality.h in Headers */,
@@ -580,6 +580,7 @@
 				6DF80A9B1E31E3070043B5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DF80A9C1E31E3070043B5B9 /* Build configuration list for PBXNativeTarget "ValidationKitTests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +589,7 @@
 				6DF80A9E1E31E3070043B5B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
